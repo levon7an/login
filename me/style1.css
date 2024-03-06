@@ -1,0 +1,71 @@
+
+
+.me{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    background-image: url(../image/bac-text.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+
+ }
+
+.text{ 
+/*  
+  font-weight: bold; */
+  color: rgb(194, 194, 194);
+ margin-left: 40px;
+ max-width: 800px;
+ margin: 20px auto;
+ padding: 20px;
+ font-size: 20px;
+ box-shadow: 0 0 10px rgb(113, 255, 196);
+ list-style-type: none; /* Remove default bullets */
+}
+
+.title{
+  color: rgb(193, 220, 243);
+}
+ 
+
+li{
+  color: #ffffff;
+  font-weight: bold;
+  
+}
+
+
+li::before {
+  content: '\2022'; 
+  /* Unicode character for a bullet point */
+  position: absolute;
+left: 0;
+  color: #fffbfb; 
+  /* Change color as needed */
+}
+ 
+.text1{
+  margin-right: 1000px;
+  margin-top: 100px;
+  font-size: 25px;
+}
+
+.text2{
+  margin-right: 100px;
+  font-size:25px ;
+  margin-top: 100px;
+}
+
+.text3{
+  font-size: 40px;
+  align-items: center;
+  color: #fffbfb;
+  margin: 20px auto;
+ padding: 20px;
+ margin-top: 150px;
+ box-shadow: 0 0 10px rgb(238, 119, 119);
+ list-style-type: none;
+}
